@@ -69,6 +69,6 @@ MCreator包含一个先进的程序和事件系统，允许你定义复杂的动
 
 在本教程撰写时，Java的最新正式版为Java 19，Java 20与Java 21早期构建也已经发布，但是只推荐下载Java 8与Java 16，Java 11视情况下载。
 
-下载JDK可在 `jdk.java.net` 下载
+Java可在 `www.oracle.com/cn/java/technologies/downloads` 下载(当然，在 `jdk.java.net` 下载也是可行的)。
 
 #### 下载MCreator
