@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:608aac4bd04af701229f6462d0867ff5abc7e89cdf84c18d2242899ff3694423
-size 235
+# MCreatorUsageGuide
+
+ 一个教程旨在快速教会希望编写模组，但不想花时间学习Java的人快速编写模组。
+
+[查看教程](https://github.com/Grey-Wind/MCreatorUsageGuide/blob/main/content/MCreatorUsageGuide.md)
