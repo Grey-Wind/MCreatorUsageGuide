@@ -80,23 +80,35 @@ https://gitee.com/at-studio/MCreatorUsageGuide
 
 在本教程撰写时，Java的最新正式版为Java 19，Java 20与Java 21早期构建也已经发布，但是只推荐下载Java 8与Java 16，Java 11视情况下载。
 
-Java可在 `www.oracle.com/cn/java/technologies/downloads` 下载(当然，在 `jdk.java.net` 下载也是可行的)。![1673591135837](image/MCreatorUsageGuide/1673591135837.png)
+Java可在 `www.oracle.com/cn/java/technologies/downloads` 下载(当然，在 `jdk.java.net` 下载也是可行的)。
 
-先使用Win 10搜索“环境变量”，打开“编辑系统环境变量”。![1673592834824](image/MCreatorUsageGuide/1673592834824.png)
+![1673591135837](image/MCreatorUsageGuide/1673591135837.png)
+
+先使用Win 10搜索“环境变量”，打开“编辑系统环境变量”。
+
+![1673592834824](image/MCreatorUsageGuide/1673592834824.png)
 
 点击“环境变量”，打开环境变量窗口。
 
-在下方系统变量处点击“新建”。![1673594395809](image/MCreatorUsageGuide/1673594395809.png)
+在下方系统变量处点击“新建”。
+
+![1673594395809](image/MCreatorUsageGuide/1673594395809.png)
 
 添加变量名为 `JAVA_HOME`。
 
-变量值为安装JDK的路径，一般在 `C:\Program Files\Java\jdk1.8.0_321`，一般都在系统盘。![1673594743954](image/MCreatorUsageGuide/1673594743954.png)
+变量值为安装JDK的路径，一般在 `C:\Program Files\Java\jdk1.8.0_321`，一般都在系统盘。
 
-接着双击系统变量中的Path。![1673595033795](image/MCreatorUsageGuide/1673595033795.png)
+![1673594743954](image/MCreatorUsageGuide/1673594743954.png)
+
+接着双击系统变量中的Path。
+
+![1673595033795](image/MCreatorUsageGuide/1673595033795.png)
 
 在新窗口中点击“新建”，输入 `％JAVA_HOME%\bin;`。注意！分号不能少。
 
-紧接着，新建一个名为 `CLASSPATH`的系统变量，变量值为 `.`。![1673596461023](image/MCreatorUsageGuide/1673596461023.png)
+紧接着，新建一个名为 `CLASSPATH`的系统变量，变量值为 `.`。
+
+![1673596461023](image/MCreatorUsageGuide/1673596461023.png)
 
 现在输入 `javac -version`，如果出现了Java版本即设置正常(注：在安装多个Java的情况下有可能显示的Java与你配置的不同)。
 
@@ -110,13 +122,19 @@ Java可在 `www.oracle.com/cn/java/technologies/downloads` 下载(当然，在 `
 
 ##### 更换中文
 
-运行MCreator，在偏好设置内选择中文，在仓库内下载的MCreator有中文帮助，应该为图片中的81%。![1673671472162](image/MCreatorUsageGuide/1673671472162.png)![1673671482083](image/MCreatorUsageGuide/1673671482083.png)
+运行MCreator，在偏好设置内选择中文，在仓库内下载的MCreator有中文帮助，应该为图片中的81%。
+
+![1673671472162](image/MCreatorUsageGuide/1673671472162.png)
+
+![1673671482083](image/MCreatorUsageGuide/1673671482083.png)
 
 如果没有自动替换为中文需要重启MCreator。
 
 ##### 新建工作区
 
-点击新建工作区按钮，弹出新建工作区窗口，默认选择新建Forge模组。接着，输入你想要的模组显示名称，极度不建议输入中文及中文字符，本教程输入 `Example`作为模组名称。大部分情况下，模组命名空间不建议修改，如果不喜欢默认的，可自行在创建模组前调整，创建模组后调整会导致识别为两个模组。接下来，调整模组生成器版本为1.16.5。选择文件夹，点击创建。![1673672600290](image/MCreatorUsageGuide/1673672600290.png)
+点击新建工作区按钮，弹出新建工作区窗口，默认选择新建Forge模组。接着，输入你想要的模组显示名称，极度不建议输入中文及中文字符，本教程输入 `Example`作为模组名称。大部分情况下，模组命名空间不建议修改，如果不喜欢默认的，可自行在创建模组前调整，创建模组后调整会导致识别为两个模组。接下来，调整模组生成器版本为1.16.5。选择文件夹，点击创建。
+
+![1673672600290](image/MCreatorUsageGuide/1673672600290.png)
 
 在创建完成后，MCreator会自行设置、导入Gradle项目。
 
