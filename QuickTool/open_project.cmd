@@ -1,1 +1,0 @@
-D:\Qt\Tools\QtCreator\bin\qtcreator.exe CMakeLists.txt
