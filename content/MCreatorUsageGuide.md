@@ -182,4 +182,6 @@ Java可在 `www.oracle.com/cn/java/technologies/downloads` 下载(当然，在 `
 
 请读者在不熟练的情况下不要对文件有任何删改，正常在MCreator内编辑即可。
 
-#### 创建第一个物品
+#### 创建进入游戏的事件
+
+点击加号
