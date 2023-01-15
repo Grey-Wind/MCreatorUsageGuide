@@ -1,4 +1,5 @@
 import QtQuick
+import QtQuick.Controls 6.3
 
 Window {
     width: 640
@@ -20,5 +21,16 @@ Window {
         font.pixelSize: 30
         horizontalAlignment: Text.AlignHCenter
         font.bold: true
+    }
+
+    Button {
+        id: downloadMcr
+        x: 30
+        y: 79
+        width: 222
+        height: 38
+        text: qsTr("下载MCreator 2022.3")
+        font.bold: true
+        font.pointSize: 15
     }
 }
