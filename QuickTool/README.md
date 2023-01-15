@@ -9,3 +9,5 @@
 [C++顺序执行多条命令行的方法](https://blog.csdn.net/hellbaby666/article/details/9623483)
 
 [Python 监控Github项目更新并自动下载](https://zhuanlan.zhihu.com/p/139289920)
+
+[Qml与Js调用](https://blog.csdn.net/LiHong333/article/details/114591968)
