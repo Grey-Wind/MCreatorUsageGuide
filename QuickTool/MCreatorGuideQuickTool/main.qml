@@ -29,8 +29,15 @@ Window {
         y: 79
         width: 222
         height: 38
-        text: qsTr("下载MCreator 2022.3")
+        text: qsTr("<a href=\"https://github.com/Grey-Wind/MCreatorUsageGuide">下载MCreator 2022.3</a>")
+        onLinkActivated:Qt.openUrlExternally(link)
         font.bold: true
         font.pointSize: 15
+        Connections {
+            target: downloadMcr
+            function onClicked(){
+                 //window.open("https://github.com/Grey-Wind/MCreatorUsageGuide", "_blank")
+            }
+        }
     }
 }
